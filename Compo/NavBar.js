@@ -5,7 +5,7 @@ const NavBar = () => {
     <div className = {styles.container}>
       <div className = {styles.item}>
       <div className = {styles.callButton}>
-      <Image src='/img/l.m.j.6.png' alt="picture" width="62" height="62" />
+      <Image src='/img/l.m.j.6.png' alt="picture" width="40" height="40" />
         </div>
       <div className = {styles.logo}>L.M.J</div>
       
