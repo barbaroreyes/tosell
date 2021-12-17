@@ -1,6 +1,18 @@
 .container{
   background-color:#99d6ff ;
+  height: 100px;
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
 }
 .item{
+  flex: 1;
 
 }
+:nth-child(2)
+
+
+

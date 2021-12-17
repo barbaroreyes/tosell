@@ -5,17 +5,17 @@ const NavBar = () => {
     <div className = {styles.container}>
       <div className = {styles.item}>
       <div className = {styles.callButton}>
-         <Image src='/img/cellPhone.jpeg' alt="" width="62" height="62"/>
+         <Image src='/img/cellPhone.jpeg' alt="" width="32" height="32"/>
         </div>
         <div className = {styles.texts}>
         <div className = {styles.text}>Order Now </div>
-        <div className = {styles.text}>Order 123 342 2432 </div>
+        <div className = {styles.text}>123 342 2432 </div>
         </div>
 
 
       </div>
-      <div className = {styles.item}></div>
-      <div className = {styles.item}></div>
+      <div className = {styles.item}>Center</div>
+      <div className = {styles.item}>Rigth</div>
     </div>
   )
 }
