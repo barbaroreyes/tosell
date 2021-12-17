@@ -16,14 +16,14 @@
 }
 .item:nth-child(2){
 flex: 3;
-background-color: rgb(247, 239, 239);
+background-color: #99d6ff;
 }
 .callButton{
 padding:20px;
   
 }
 .texts{
-  margin-left: 8px;
+ margin-left: 15px;
   color: #fff;
   padding: 10px;
 }
@@ -33,19 +33,28 @@ padding:20px;
 
 }
 .text:last-child{
-  font-size: 25px;
+  font-size: 29px;
   font-weight:bold;
 
 }
+.logo{
+  font-size: 35px;
+  font-family :sans-serif;
+  color: #fff;
+  
+}
 .list{
+  width: 100%;
   display:flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
- 
+ text-align: center;
 }
 .listItem{
   list-style: none;
   margin: 10px;
+  display: flex;
+  justify-content: center;
 
 }
 

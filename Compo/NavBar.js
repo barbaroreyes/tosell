@@ -5,8 +5,11 @@ const NavBar = () => {
     <div className = {styles.container}>
       <div className = {styles.item}>
       <div className = {styles.callButton}>
-         <Image src='/img/cellPhone.jpeg' alt="" width="42" height="42" style={{border:'5px solid black'}}/>
+      <Image src='/img/l.m.j.6.png' alt="picture" width="62" height="62" />
         </div>
+      <div className = {styles.logo}>L.M.J</div>
+      
+      
         <div className = {styles.texts}>
         <div className = {styles.text}>Order Now </div>
         <div className = {styles.text}>123 342 2432 </div>
@@ -14,6 +17,7 @@ const NavBar = () => {
         </div>
       <div className = {styles.item}>
         <ul className = {styles.list}>
+       
           <li className = {styles.listItem}>Home</li>
           <li className = {styles.listItem}>Product</li>
           <li className = {styles.listItem}>Menu</li>
