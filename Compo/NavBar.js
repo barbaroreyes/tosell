@@ -12,7 +12,17 @@ const NavBar = () => {
         <div className = {styles.text}>123 342 2432 </div>
         </div>
         </div>
-      <div className = {styles.item}>Center</div>
+      <div className = {styles.item}>
+        <ul className = {styles.list}>
+          <li className = {styles.listItem}>Home</li>
+          <li className = {styles.listItem}>Product</li>
+          <li className = {styles.listItem}>Menu</li>
+          <li className = {styles.listItem}>EVENT</li>
+          <li className = {styles.listItem}>BLOG</li>
+          <li className = {styles.listItem}>CONTACT</li>
+
+        </ul>
+      </div>
       <div className = {styles.item}>Rigth</div>
     </div>
   )
