@@ -17,8 +17,7 @@ const NavBar = () => {
         </div>
       <div className = {styles.item}>
         <ul className = {styles.list}>
-       
-          <li className = {styles.listItem}>Home</li>
+       <li className = {styles.listItem}>Home</li>
           <li className = {styles.listItem}>Product</li>
           <li className = {styles.listItem}>Menu</li>
           <div className = {styles.logo}>
