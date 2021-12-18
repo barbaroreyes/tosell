@@ -5,7 +5,7 @@ const NavBar = () => {
     <div className = {styles.container}>
       <div className = {styles.item}>
       <div className = {styles.callButton}>
-      <Image src='/img/cellPhone.jpeg' alt="picture" width="40" height="40" />
+      <Image src='/img/l.m.j.6.png' alt="picture" width="40" height="40" />
         </div>
       
       
@@ -20,19 +20,15 @@ const NavBar = () => {
        <li className = {styles.listItem}>Home</li>
           <li className = {styles.listItem}>Product</li>
           <li className = {styles.listItem}>Menu</li>
-          <div className = {styles.logo}>
-          <div className = {styles.logo}>
-      <Image src='/img/l.m.j.6.png' alt="picture" width="40" height="40" />
-        </div>
-            L.M.J</div>
+          <div className = {styles.logo}>L.M.J</div>
           <li className = {styles.listItem}>EVENT</li>
           <li className = {styles.listItem}>BLOG</li>
           <li className = {styles.listItem}>CONTACT</li></ul>
       </div>
       <div className = {styles.item}>
         <div className={styles.cart}>
-       
-        <Image src='/img/cart-ui.png' alt="picture" width="50" height="50" />
+        <Image src='/img/cart-ui.png' alt="picture" width="40" height="40" />
+        
         <div className = {styles.count}>2</div>
         </div>
      

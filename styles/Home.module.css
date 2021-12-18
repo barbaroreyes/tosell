@@ -2,16 +2,18 @@
     display: flex;
     height: calc(100vh - 50px);
     justify-content: space-between;
+    background-color: #ccebff;
 }
 .left{
     flex: 1;
-    border: 1px solid;
+    
+
 }
 .center{
     flex: 3.5;
-    border: 1px solid;
+    
 }
 .rigth{
     flex: 1;
-    border: 1px solid;
+    
 }
