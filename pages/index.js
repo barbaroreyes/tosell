@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import Featured from '../Compo/Feature'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -10,8 +10,7 @@ export default function Home() {
         <meta name="description" content="To shine " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.left}>left</div>
-      <div className={styles.rigth}>left</div>
+      <Featured/>
   
     </div>
   )
