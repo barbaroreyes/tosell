@@ -10,7 +10,9 @@ export default function Home() {
         <meta name="description" content="To shine " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      Homepage
+      <div className={styles.left}>left</div>
+      <div className={styles.center}>left</div>
+      <div className={styles.rigth}>left</div>
   
     </div>
   )

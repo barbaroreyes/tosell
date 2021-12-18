@@ -32,7 +32,7 @@ const NavBar = () => {
       <div className = {styles.item}>
         <div className={styles.cart}>
        
-        <Image src='/img/cart-ui.png' alt="picture" width="40" height="40" />
+        <Image src='/img/cart-ui.png' alt="picture" width="50" height="50" />
         <div className = {styles.count}>2</div>
         </div>
      
