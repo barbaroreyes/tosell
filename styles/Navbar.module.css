@@ -39,10 +39,10 @@ padding:20px;
 
 }
 .logo{
-  font-size: 30px;
+  font-size: 37px;
   font-family :sans-serif;
   color: #fff;
-  
+  margin: 10px;
 }
 .list{
  
@@ -61,12 +61,13 @@ padding:20px;
 }
 .cart{
   position:absolute;
-  height: 18vh;
-  border-radius: 50%;
-  padding: 13px;
+  /* height: 18vh; */
+  /* border-radius: 50%; */
+  /* padding: 13px; */
   display: flex;
   justify-content: flex-end;
   flex-direction: column-reverse;
+  align-items: center;
   
 }
 .count{
@@ -75,9 +76,9 @@ padding:20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 31px;
+  /* top: 31px;
   padding:2px;
-  margin-left: 3px;
+  margin-left: 3px; */
   
   
 }
