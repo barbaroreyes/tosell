@@ -27,7 +27,13 @@ const NavBar = () => {
 
         </ul>
       </div>
-      <div className = {styles.item}>Rigth</div>
+      <div className = {styles.item}>
+        <div className={styles.cart}>
+        <Image src='/img/cart-ui.png' alt="picture" width="40" height="40" />
+        <div className = {styles.count}>2</div>
+        </div>
+     
+      </div>
     </div>
   )
 }

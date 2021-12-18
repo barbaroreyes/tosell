@@ -57,6 +57,20 @@ padding:20px;
   justify-content: center;
 
 }
+.cart{
+  width:103px;
+  height: 10vh;
+  background-color:  #0099ff ;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+.count{
+  color: #fff;
+}
 
 
 
